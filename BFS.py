@@ -29,9 +29,6 @@ def best_first_search(source, target, n):
 			if visited[v] == False:
 				visited[v] = True
 				pq.put((c, v))
-	# print()
-
-# Function for adding edges to graph
 
 
 def addedge(x, y, cost):
@@ -39,31 +36,7 @@ def addedge(x, y, cost):
 	graph[y].append((x, cost))
 
 
-# The nodes shown in above example(by alphabets) are
-# implemented using integers addedge(x,y,cost);
-# addedge(0, 1, 3)
-# addedge(0, 2, 6)
-# addedge(0, 3, 5)
-# addedge(1, 4, 9)
-# addedge(1, 5, 8)
-# addedge(2, 6, 12)
-# addedge(2, 7, 14)
-# addedge(3, 8, 7)
-# addedge(8, 9, 5)
-# addedge(8, 10, 6)
-# addedge(9, 11, 1)
-# addedge(9, 12, 10)
-# addedge(9, 13, 2)
-
-# source = 0
-# target = 9
-# print(graph)
-# best_first_search(source, target, v)
-
-# This code is contributed by Jyotheeswar Ganne
-
-
-lst = [10]
+lst = [10, 50, 100, 500, 1000, 5000, 10000]
 
 for i in lst:
 
