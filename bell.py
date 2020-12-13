@@ -71,7 +71,7 @@ class Graph:
 # g.addEdge(4, 3, -3) 
 
 # Print the solution
-lst = [10]
+lst = [10, 50, 100, 500, 1000, 5000, 10000]
 
 for i in lst: 
     print(i)
