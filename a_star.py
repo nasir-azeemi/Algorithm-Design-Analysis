@@ -115,7 +115,7 @@ def add_to_open(open, neighbor):
 # The main entry point for this module
 def main():
 
-    lst = [10]
+    lst = [10, 50, 100, 500, 1000, 5000, 10000]
 
     for i in lst: 
         print(i)
