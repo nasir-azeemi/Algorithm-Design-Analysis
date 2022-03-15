@@ -1,6 +1,3 @@
 # Algorithms-Design-Analysis-Project
-Resources Used for Algorithm Codes:
-https://www.annytab.com/a-star-search-algorithm-in-python/
-https://www.geeksforgeeks.org/python-program-for-dijkstras-shortest-path-algorithm-greedy-algo-7/
-https://www.geeksforgeeks.org/best-first-search-informed-search/
-https://www.geeksforgeeks.org/bellman-ford-algorithm-dp-23/
+This project was a part of my Algorithms Design & Analysis course at Habib University. We were required to pick a problem and perform an empirical runtime analaysis of it's algorithms.
+Our project was about finding shortest path problem. The problem can be modelled as a graph and algorithms can be devised to traverse the graphs such that we may find a solution to the Shortest Path Problem.
